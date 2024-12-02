@@ -5,6 +5,7 @@ description = "Automated personality prediction with large language models"
 authors = ["Yash Mehta <yashsmehta95@gmail.com>"]
 license = "MIT"
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.9, <3.12"
@@ -20,7 +21,6 @@ xformers = "^0.0.20"
 torch = {version = "^2.0.1+cu118", source = "pytorch-gpu-src"}
 torchvision = {version = "^0.15.2+cu118", source = "pytorch-gpu-src"}
 torchaudio = {version = "^2.0.2+cu118", source = "pytorch-gpu-src"}
-
 
 [[tool.poetry.source]]
 name = "pytorch-gpu-src"
